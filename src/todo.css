@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(93, 93, 236);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    
+    color:hwb(30 89% 6%);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.todo-list-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 35px;
+    background-color: rgb(38, 38, 39);
+    border-radius: 10%;
+    
+}
+.input-div{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 5px;
+    margin:8px;
+    background-color: rgb(126, 186, 235);
+}
+.input{
+    padding: 5px;
+    border:1px solid;
+    
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.list{
+    font-family:monospace;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    flex: 80%;
+}
+.list-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
